@@ -154,8 +154,24 @@ a.aboutme, a.projects, a.interests { /*transparent space to prevent nav bar bloc
 	text-decoration: none;
 }
 
-.network-name{
+.btn-default{
 	font-family: Georgia;
 	color: #000000;
 	text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn span.email {
+	background: url('Photos/outlook.png') no-repeat left ;
+	padding-left:20px;
+}
+
+.btn span.facebook {
+	background: url('Photos/facebook.png') no-repeat left ;
+	padding-left:20px;
+}
+
+.btn span.youtube {
+	background: url('Photos/youtube.png') no-repeat left ;
+	padding-left:20px;
 }
